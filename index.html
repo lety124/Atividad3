@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feira de Tecnologia do IFRN - Campus Macau</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <style>
+      /* Estilo Geral da Página */
+      body {
+        background-color: #f3e8ff; /* Fundo lilás bem suave */
+        font-family: Arial, Helvetica, sans-serif;
+        color: #3b0764; /* Texto em tom roxo bem escuro */
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Cabeçalho */
+      header {
+        background-color: #6b21a8; /* Roxo principal */
+        color: white;
+        text-align: center;
+        padding: 25px 15px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 26px;
+      }
+
+      header p {
+        margin-top: 8px;
+        font-size: 15px;
+        opacity: 0.9;
+      }
+
+      /* Navigation - Barra Horizontal no Topo */
+      nav {
+        background-color: #581c87; /* Roxo mais escuro para o menu */
+        padding: 10px 0;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Alinha os itens lado a lado */
+        justify-content: center; /* Centraliza no meio da tela */
+        gap: 15px; /* Espaço entre as opções */
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 20px; /* Efeito de botão arredondado */
+      }
+
+      nav a:hover {
+        background-color: #7e22ce; /* Roxo mais claro ao passar o cursor */
+      }
+
+      /* Seções da Página */
+      section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+      }
+
+      h2 {
+        color: #6b21a8;
+        border-bottom: 2px solid #d8b4fe;
+        padding-bottom: 5px;
+      }
+
+      /* Cards da Programação (Modelo de caixa) */
+      .card-programa {
+        background-color: #ffffff;
+        border-radius: 12px; /* Cantos arredondados */
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        border: 1px solid #e9d5ff;
+        box-shadow: 0 4px 6px rgba(88, 28, 135, 0.08); /* Sombra leve */
+      }
+
+      .card-programa h3 {
+        margin-top: 0;
+        color: #7e22ce;
+      }
+
+      .card-programa p {
+        margin: 5px 0;
+      }
+
+      /* Rodapé */
+      footer {
+        background-color: #3b0764;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Feira de Tecnologia do IFRN - Campus Macau</h1>
+      <p>Evento de divulgação científica e tecnológica</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#programacao">Programação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section id="inicio">
+      <h2>Início</h2>
+      <p>
+        A Feira de Tecnologia do IFRN trabalha com projetos de robótica,
+        desenvolvimento, banco de dados e inteligência artificial.
+      </p>
+    </section>
+
+    <section id="programacao">
+      <h2>Programação</h2>
+
+      <div class="card-programa">
+        <h3>Abertura</h3>
+        <p><strong>Data:</strong> 13/07</p>
+        <p><strong>Local:</strong> Auditório</p>
+      </div>
+
+      <div class="card-programa">
+        <h3>Minicurso HTML, CSS e JS</h3>
+        <p><strong>Data:</strong> 14/07</p>
+        <p><strong>Local:</strong> Laboratório 1</p>
+      </div>
+
+      <div class="card-programa">
+        <h3>Painel de Carreiras em TI</h3>
+        <p><strong>Data:</strong> 15/07</p>
+        <p><strong>Local:</strong> Auditório</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Informações: guilherme.leal@ifrn.edu.br</p>
+      <p>Telefone: (84) 88888-8888</p>
+    </section>
+
+    <footer>
+      <p>Feira de Tecnologia do IFRN - Campus Macau (2026)</p>
+    </footer>
+  </body>
+</html>
